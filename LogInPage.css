@@ -1,0 +1,136 @@
+.logo-no-bg-2 {
+  position: absolute;
+  top: 21px;
+  left: 134px;
+  width: 92px;
+  height: 87px;
+  object-fit: cover;
+}
+.sign-in-with {
+  position: absolute;
+  top: 142px;
+  left: 18px;
+  font-weight: 300;
+  color: var(--color-black);
+  display: inline-block;
+  width: 191px;
+  height: 24px;
+}
+.log-in-page-child {
+  position: absolute;
+  top: 190px;
+  left: 18px;
+  background-color: var(--color-gainsboro);
+  width: 324px;
+  height: 43px;
+}
+.email-address {
+  position: absolute;
+  top: 166px;
+  left: 18px;
+  font-size: var(--font-size-xs);
+  display: inline-block;
+  width: 94px;
+  height: 24px;
+}
+.log-in-page-item {
+  position: absolute;
+  top: 267px;
+  left: 18px;
+  background-color: var(--color-gainsboro);
+  width: 324px;
+  height: 43px;
+}
+.password {
+  position: absolute;
+  top: 243px;
+  left: 18px;
+  font-size: var(--font-size-xs);
+  display: inline-block;
+  width: 80px;
+  height: 24px;
+}
+.log-in-page-inner {
+  position: absolute;
+  top: 320px;
+  left: 18px;
+  border-radius: 10px;
+  background-color: var(--color-goldenrod-100);
+  width: 324px;
+  height: 43px;
+  cursor: pointer;
+}
+.log-in {
+  position: absolute;
+  top: 330px;
+  left: 158px;
+  font-weight: 500;
+  color: var(--color-black);
+  text-align: center;
+}
+.forgot-password,
+.not-yet-a,
+.sign-up {
+  position: absolute;
+  display: inline-block;
+}
+.not-yet-a {
+  top: 420px;
+  left: 89px;
+  font-size: var(--font-size-xs);
+  font-weight: 300;
+  color: var(--color-black);
+  width: 124px;
+  height: 24px;
+}
+.forgot-password,
+.sign-up {
+  top: 416px;
+  left: 213px;
+  color: var(--color-goldenrod-100);
+  width: 58px;
+  height: 27px;
+}
+.forgot-password {
+  top: 378px;
+  left: 121px;
+  font-size: 13px;
+  font-weight: 500;
+  text-align: center;
+  width: 118px;
+  height: 24px;
+}
+.enter-password {
+  position: absolute;
+  top: 277px;
+  left: 38px;
+  font-weight: 300;
+}
+.icons-funcational-common {
+  position: absolute;
+  top: 15px;
+  left: 302px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+}
+.enter-email-address {
+  position: absolute;
+  top: 200px;
+  left: 39px;
+  font-weight: 300;
+}
+.log-in-page {
+  width: 360px;
+  position: relative;
+  background-color: var(--color-white);
+  height: 454px;
+  overflow: hidden;
+  display: none;
+  max-width: 90%;
+  max-height: 90%;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-gray-100);
+  font-family: var(--font-poppins);
+}

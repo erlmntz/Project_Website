@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+.popup-overlay {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  inset: 0;
+}
+
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+
+  /* font sizes */
+  --font-size-13xl: 32px;
+  --font-size-5xl: 24px;
+  --font-size-base: 16px;
+  --font-size-xl: 20px;
+  --font-size-mini: 15px;
+  --font-size-xs: 12px;
+
+  /* Colors */
+  --color-goldenrod-100: #ffc338;
+  --color-goldenrod-200: #efb437;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-gray: #909090;
+  --color-gray-100: #7e7e7e;
+  --color-gainsboro: #dcdcdc;
+
+  /* Gaps */
+  --gap-xl: 20px;
+  --gap-lgi: 19px;
+}
